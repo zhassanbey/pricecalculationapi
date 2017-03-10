@@ -8,7 +8,7 @@ package price.calculation.commons.model.response;
 import com.google.gson.Gson;
 
 /**
- *
+ * General class that represents custom responses
  * @author root
  */
 public class Response {
