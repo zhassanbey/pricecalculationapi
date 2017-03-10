@@ -1,4 +1,4 @@
-# pricecalculationapi
+# Price Calculation Api
 Rate limiting and timeout handling demo project.
 To launch the service you will need Java 8 and Redis v3.2.8
 
