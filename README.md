@@ -1,4 +1,4 @@
-# Price Calculation Api
+# Price Calculation API
 Rate limiting and timeout handling demo project.
 To launch the service you will need Java 8 and Redis v3.2.8
 
@@ -21,4 +21,4 @@ timeout=11 # calculation timout overal (not just a socket or connection timeout,
 price-calculation-service-url=http://localhost:8092/getPrice # host of the api service (price calculation service in our case)
 
 ```
-The services are dockerized using spring boot docker plugin. The see path to docker files or change the configs see POM of the components.
+The services are dockerized using spring boot docker plugin. To see path to docker files or change the configs see POM of the components.
