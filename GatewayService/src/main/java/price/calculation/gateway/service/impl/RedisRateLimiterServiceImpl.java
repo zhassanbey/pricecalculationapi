@@ -46,7 +46,7 @@ public class RedisRateLimiterServiceImpl implements RateLimiterService {
         long ttl = connection.ttl(id);
         System.out.println("ttl = "+ttl);
         if(ttl  == -1){
-            connection.expire(id, 10);
+            connection.expire(id, rateLimit);
             return false;
         }
         if (Integer.parseInt(connection.get(id)) > rateLimit) {
